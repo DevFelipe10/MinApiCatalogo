@@ -1,0 +1,17 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=ip;Database=CatalogoMinApi;Uid=user;Pwd=pass"
+  },
+  "Jwt": {
+    "Key": "#NYQQx72RbHDZN1IBqdcBtvmrDC17H5ey",
+    "Issuer": "minapicatalogo.com",
+    "Audience": "http://minapicatalogo.com"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
